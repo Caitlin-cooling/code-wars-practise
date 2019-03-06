@@ -1,0 +1,24 @@
+// Given a set of numbers, return the additive inverse of each.
+// Each positive becomes negatives, and the negatives become positives.
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      function invert(array) {
+        inverted = [];
+         array.forEach(function(element) {
+           inverted.push(element * -1);
+         });
+         return inverted;
+      }
+
+      console.log(invert([1,-2,3,4,5]))
+    </script>
+
+  </body>
+</html>
